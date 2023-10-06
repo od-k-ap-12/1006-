@@ -1,0 +1,15 @@
+﻿<Window x:Class="_1006.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1006"
+        mc:Ignorable="d"
+        Title="test" Height="150" Width="800">
+    <StackPanel Margin="10" 
+                PreviewTextInput="pnl_PreviewTextInput" >
+
+        <TextBox Name="textBox1" Height="80" VerticalAlignment="Top" Margin="2" />
+
+    </StackPanel>
+</Window>
